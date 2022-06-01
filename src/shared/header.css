@@ -1,0 +1,16 @@
+.header-container {
+    margin-bottom: 1rem;
+}
+.header-nav-menu{
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    background-color: #09305a;
+}
+
+.header-nav-menu .nav-link{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}

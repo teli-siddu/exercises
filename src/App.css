@@ -1,0 +1,18 @@
+:root{
+  --font-size:16px;
+  --primary: #d81e5b;
+  --secondary:#ff6600;
+  --dark:#131a26;
+  --light:#eee;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'fira sans',sans-serif;
+}
+body{
+  font-size: var(--font-size);
+}

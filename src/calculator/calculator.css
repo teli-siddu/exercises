@@ -1,0 +1,44 @@
+
+.calculator-container{
+    margin: 20px;
+    border: 1px solid #3333;
+border-radius: 10px;
+width: 50%;
+margin: 10px auto   ;
+}
+.calc-screen{
+    border-bottom: 1px solid #3333;
+    min-height: 5rem;
+    position: relative;
+}
+.output{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+ .input-operands,.input-result{
+    /* display: flex; */
+    /* min-height: 2.5rem; */
+   font-size:  calc(var(--font-size));
+   padding: 8px 10px;
+   text-align: right;
+}
+.input-operands.large,.input-result.large{
+    font-size:  calc(var(--font-size)*1.5) !important;
+}
+.digits-operators{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.digits-operators button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: calc(var(--font-size)*1.5);
+    cursor: pointer;
+}
+.digits-operators .operator{
+    color: var(--secondary);
+}
