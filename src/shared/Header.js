@@ -9,11 +9,11 @@ const Header = () => {
         <div className='nav-item'>
                 <Link to='/calculator' className='nav-link'>Calculator</Link>
                 <Link to='/search-filter' className='nav-link'>Search Filter</Link>
+                <Link to='/login' className='nav-link'>Login</Link>
                
         </div>
         <div className='nav-item'>
-                <Link to='/nav-menu' className='nav-link'>Nav Menu</Link>
-              
+                <a href="https://siddu-teli.vercel.app/" className='nav-link'>Nav Menu</a>
         </div>
     </div>
     </div>

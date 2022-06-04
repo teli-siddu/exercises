@@ -1,0 +1,53 @@
+.login-wrapper{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #3333;
+    padding: 10px;
+}
+.login-wrapper .form-inline{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+ .login-wrapper .row{
+    margin-bottom: 10px;
+}
+label.control-label {
+    width: 100%;
+   float: left;
+   text-align: left;
+   margin-bottom: 10px;
+}
+.form-inline .control-label {
+    text-align: left;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+}
+button:disabled{
+    opacity: 0.5;
+}
+.btn.btn-primary{
+    background-color: blue;
+    color: white;
+}
+.bg-success{
+    background-color: green;
+    color: white;
+}
+.bg-danger{
+    background-color: red;
+    color: white;
+}
+.msg{
+    padding: 10px;
+    min-height: 39px;;
+    border-radius: 2px;;
+}
