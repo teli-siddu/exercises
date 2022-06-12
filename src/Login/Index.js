@@ -57,7 +57,7 @@ import './login.css'
 
             </div>
             <div className='row'>
-                <button type='submit' className='btn btn-primary' disabled={disableBtn} onClick={handleLogin}> {loading?"Loading...":"Login"}</button>
+                <button type='submit' className='btn btn-primary' disabled={disableBtn} onClick={handleLogin}> {loading?"Plase wait...":"Login"}</button>
             </div>
         </div>
     )

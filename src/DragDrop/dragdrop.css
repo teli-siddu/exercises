@@ -1,0 +1,15 @@
+.dragdrop-container{
+    display: flex;
+    justify-content: space-around;
+}
+.section{
+    height: 100vh;
+    background: blue;
+    width: 20%;
+    text-align: center;
+}
+ .item{
+    padding: 10px 0px;
+    background: azure;
+    margin: 5px;
+}

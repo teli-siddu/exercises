@@ -1,0 +1,13 @@
+.nav-item{
+    background: #09305a;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.menu-tree-container{
+    width: 50%;
+}
+.menu-tree-container .toggle-icon{
+    float: right;
+}
