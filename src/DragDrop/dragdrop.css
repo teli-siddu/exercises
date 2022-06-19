@@ -1,6 +1,6 @@
 .dragdrop-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .section{
     height: 100vh;
@@ -12,4 +12,9 @@
     padding: 10px 0px;
     background: azure;
     margin: 5px;
+}
+
+.drag-options{
+    margin-bottom: 10px;
+    padding: 10px 0px;
 }

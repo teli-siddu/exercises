@@ -12,6 +12,8 @@ const Header = () => {
                 <Link to='/login' className='nav-link'>Login</Link>
                 <Link to='/menu-tree' className='nav-link'>Menu Tree</Link>
                 <Link to='/drag-drop' className='nav-link'>Drag & Drop</Link>
+                <Link to='/react-redux' className='nav-link'>React Redux</Link>
+                
                
         </div>
         <div className='nav-item'>
