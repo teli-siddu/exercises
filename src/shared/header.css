@@ -1,7 +1,7 @@
-.header-container {
+ .header-container {
     margin-bottom: 1rem;
 }
-.header-nav-menu{
+/*.header-nav-menu{
     display: flex;
     align-items: center;
     min-height: 40px;
@@ -13,4 +13,4 @@
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-}
+} */

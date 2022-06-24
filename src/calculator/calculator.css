@@ -21,7 +21,7 @@ margin: 10px auto   ;
     /* display: flex; */
     /* min-height: 2.5rem; */
    font-size:  calc(var(--font-size));
-   padding: 8px 10px;
+   padding: 5px 10px;
    text-align: right;
 }
 .input-operands.large,.input-result.large{

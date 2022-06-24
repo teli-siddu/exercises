@@ -119,7 +119,7 @@ const RecursiveComponent = (props) => {
     })
     return(
         <div>
-            <div  className="nav-item" onClick={()=>handleClick()} >{menuitem.Title} {(!menuitem.Children || menuitem.Children.length==0)?"": activeMenu?<span className='toggle-icon'>-</span>:<span className='toggle-icon'>+</span>}</div>
+            <div  className="nav-item  bg-primary" onClick={()=>handleClick()} >{menuitem.Title} {(!menuitem.Children || menuitem.Children.length==0)?"": activeMenu?<span className='toggle-icon'>-</span>:<span className='toggle-icon'>+</span>}</div>
             {
                  activeMenu && <div className="nav-sub-items"  style= {{paddingLeft:"10px" }} >{childMenuItems}</div>
             }
@@ -132,7 +132,7 @@ const RecursiveComponent = (props) => {
 const MenuTree=()=>{
     
     return(
-       <div className="menu-tree-container">
+       <div className="menu-tree-container container">
            {
                menuItems.map((menuItem,idx)=>{
                    console.log(idx)

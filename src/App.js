@@ -10,6 +10,7 @@ import ReactRedux from './Redux/index';
 import store from './Redux/Redux/store'
 import Counter from "./Redux/Redux/counter";
 import { Provider } from 'react-redux';
+import Employees from "./Redux/Pages/Employees";
 
 function x() {
   setTimeout(function () {
@@ -38,7 +39,7 @@ function App() {
             <Route path="/menu-tree" element={<MenuTree />} />
             <Route path="/drag-drop" element={<DragDrop />} />
           
-              <Route path="/react-redux" element={<Counter />} />
+              <Route path="/react-redux" element={<Employees />} />
         
            
           </Routes>
