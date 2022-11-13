@@ -41,23 +41,28 @@ import './login.css'
     return(
         <div className="login-wrapper">
             <div className='row'>
+                <div className='col-md-12'>
                 <div className={`msg ${ respMessage.hasError==null?"":respMessage.hasError?"bg-danger":"bg-success"}`}   >{ respMessage.message}</div>
+                </div>
             </div>
             <div className="row">
-                <div className=''>
+                <div className='col-md-12'>
                 <label className='control-label' >User Name</label>
                 <input type="text" id='userName' name="userName" className='form-control' value={userDetails.userName} placeholder="Enter User Name" onChange={handleInput} />
                 </div>
             </div>
             <div className="row">
-                <div className=''>
+                <div className='col-md-12'>
                 <label className='control-label'>Password</label>
                 <input type="password"  id='password' name="password"  className='form-control' value={userDetails.password} placeholder="Enter Password"  onChange={handleInput}  />
                 </div>
 
             </div>
             <div className='row'>
+                <div className='col-md-12'>
                 <button type='submit' className='btn btn-primary' disabled={disableBtn} onClick={handleLogin}> {loading?"Plase wait...":"Login"}</button>
+
+                </div>
             </div>
         </div>
     )

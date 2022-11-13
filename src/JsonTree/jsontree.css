@@ -5,10 +5,14 @@
     padding: 10px;
     cursor: pointer;
 }
-.menu-tree-container{
-    width: 50%;
-    float: left;
-}
+
 .menu-tree-container .toggle-icon{
     float: right;
 } 
+
+@media (min-width:992px){
+    .menu-tree-container{
+        width: 50%;
+        float: left;
+    }
+}
